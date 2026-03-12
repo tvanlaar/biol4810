@@ -41,3 +41,6 @@ Average nucleotide identity
 Tool: https://www.ezbiocloud.net/tools/ani
 Version: Website
 Parameters: From NCBI Genome Database (https://www.ncbi.nlm.nih.gov/datasets/genome/), downloaded the FASTA file for Salmonella Typhimurium (closest hit on 16S BLAST) and Salmonella bongori (more distant relative). Compared filteredcontigs.fasta to the FASTA files from Typhimurium and S. Bongori.
+
+Step 8)
+The thing I forgot
