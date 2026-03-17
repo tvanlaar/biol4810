@@ -1,0 +1,46 @@
+Genome Mining
+
+Step 1)
+Search for antimicrobial resistance genes using the Comprehensive Antibiotic Resistance Database (CARD)
+Tool: https://card.mcmaster.ca/analyze/rgi
+Version: 4.0.1
+Parameter: filtered contigs; default parameters
+File saved: screenshot if few results; table if more
+
+Step 2) 
+Search for AMR using ResFinder
+Tool: https://genepi.food.dtu.dk/resfinder
+Version: 4.7.2
+Parameters: default; filtered contigs
+File saved: screenshot of results
+
+Step 3)
+Predict pathogenic potential
+Tool: Pathogen Finder 2 https://genepi.food.dtu.dk/pathogenfinder
+Version: 0.6.0
+Parameters: Default; filtered contigs
+
+Step 4)
+Secondary metabolites production
+Tool: antiSMASH https://antismash.secondarymetabolites.org/#!/start
+Version: 8
+Parameters: default filtered contigs
+File: Screenshot of hits
+
+Step 5)
+Search for Prophage
+Tool: PHASTER https://phaster.ca/
+Version: 4.3X
+Parameters: check "my input consists of multiple separate contigs"; filtered contigs
+
+Step 6) 
+Look for pathogenicity islands
+Tool: IslandViewer https://www.pathogenomics.sfu.ca/islandviewer/upload/
+Version: 4
+Parameters: click genome upload at the top of the screen; upload prokka.genbank; select reference strain (Salmonella typhimurium)
+
+Step 7) 
+Search for CRISPR regions
+Tool: CRISPRCasFinder https://crisprcas.i2bc.paris-saclay.fr/CrisprCasFinder/Index
+Version: web
+Parameters: default; filtered contigs file
