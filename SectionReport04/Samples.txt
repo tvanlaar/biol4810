@@ -1,0 +1,7 @@
+﻿Sample,Condition,Replicate
+SA52159,wildtype,1
+SA52160,wildtype,2
+SA52161,wildtype,3
+SA52162,egtBmutant,1
+SA52163,egtBmutant,2
+SA52164,egtBmutant,3
